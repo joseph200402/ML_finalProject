@@ -6,7 +6,7 @@ import yaml
 from ImagesAPI.DatasetCollector import DatasetCollector
 
 # Load config
-with open("code/config.yaml", "r") as f:
+with open("Code/config.yaml", "r") as f:
     config = yaml.safe_load(f)
 
 saints = config["saints"]
