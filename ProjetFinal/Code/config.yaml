@@ -1,15 +1,16 @@
 # config.yaml
 
 output_dir: Code/dataset
-images_per_source: 1000
+images_per_source: 30
 
 saints:
   - Charbel
-  - Rafqa
+  - Antoine Le Grand
+  - Joseph
   - Nimatulah Hardini
   - Maroun
-  - Joseph
   - Mary
   - George
+  - Rafqa
+  - Peter
   - Elias
-  - Antoine le Grand
