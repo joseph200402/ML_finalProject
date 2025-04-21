@@ -22,9 +22,9 @@ class DatasetCollector:
         self.query_templates = [
             lambda name: f"Saint {name}",
             lambda name: f"Saint {name} photos",
-            lambda name: f"Statue of Saint {name}",
-            lambda name: f"Painting of Saint {name}",
-            lambda name: f"Icons of Saint {name}",
+            lambda name: f"Face of Saint {name}",
+            lambda name: f"Images of Saint {name}",
+            lambda name: f"Saint {name} Christian",
         ]
         self._original_stdout = sys.__stdout__  # Keep terminal output safe
 
